@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <fieldset style="background-color: rgb(160, 198, 248);">
+        <h2 align="center">KENALKAN DIRI ANDA</h2>
+        <h3 align="center">REGRISTRASI WOI</h3>
+        <p>
+            <label>Student Image:</label>
+            <label><input type="file"/>(less than 5Mb)</label>
+        </p>
+        <p>
+            <label>Student Name:</label>
+            <input type="text" name="name" placeholder="Full Name" required/>
+        </p>
+        <p>
+            <label>Father's Name:</label>
+            <input type="text" name="name" placeholder="Father's Full Name"/>
+        </p>
+        <p>
+            <label>Mother's Name:</label>
+            <input type="text" name="name" placeholder="Mother's Full Name"/>
+        </p>
+        <p>
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male"/>Male</label>
+            <label><input type="radio" name="gender" value="female"/>Female</label>
+            <label><input type="radio" name="gender" value="other"/>Other</label>
+        </p>
+        <p>
+            <label>Date of Birth:</label>
+            <input type="date" name="date"/>
+        </p>
+        <p>
+            <label>E-mail:</label>
+            <input type="email" name="email" placeholder="email@xyz.com" required/>
+        </p>
+        <p>
+            <label>Level:</label>
+            <select name="level">
+                <option value="select">select</option>
+                <option value="foreign_campus">Junior Highschool</option>
+                <option value="international">Senior Highschool</option>
+            </select>
+        </p>
+        <p>
+            <label>Department:</label>
+            <select name="department">
+                <option value="select">select</option>
+                <option value="it">IT Engineering</option>
+                <option value="technical">Technical Engineering</option>
+                <option value="multimedia">Multimedia</option>
+                <option value="broadcasting">Broadcasting</option>
+                <option value="animation">Animation</option>
+            </select>
+        </p>
+        <p>
+            <label>Tel/Mobile:</label>
+            <input type="text" name="telephone"/>
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
